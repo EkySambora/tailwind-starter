@@ -2,7 +2,18 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   darkMode: 'class',
   theme: {
+    container:{
+      center: true,
+      padding:'16px'
+    },
     extend: {
+      screens:{
+        '2xl': '1320px'
+      },
+      colors:{
+        primary:'#14b8a6',
+        dark:'#0f172a'
+      },
       fontFamily:{
         inter:['Inter']
       },
