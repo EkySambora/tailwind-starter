@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  font-family: 'Inter', sans-serif;
+}
+
 #toggle:checked ~ label div.toggle-circle {
-      @apply translate-x-5 transition-all duration-500 ease-in-out;
-    }
+  @apply translate-x-5 transition-all duration-500 ease-in-out;
+}
+
+.hamburger-line{
+  @apply w-[20px] h-[2px] my-[5px] block bg-dark;
+}
+
+.hamburger-active > span:nth-child(1){
+  @apply rotate-45;
+}
+.hamburger-active > span:nth-child(2){
+  @apply scale-0
+}
+.hamburger-active > span:nth-child(3){
+  @apply -rotate-45;
+}

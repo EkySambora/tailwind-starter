@@ -11,6 +11,25 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- header  -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4 ">
+                    <a href="#home" class="font-bold text-primary text-lg block py-4">EkyZulianto</a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button type="button" id="hamburger" class="block absolute right-4">
+                        <span class="hamburger-line origin-top-left transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end header  -->
+
     <!-- hero section -->
     <section id="home" class="pt-36">
         <div class="container mx-auto">
@@ -18,7 +37,7 @@
             <div class="flex flex-wrap">
 
                 <div class="w-full self-center px-4 lg:w-1/2">
-                    <h1 class="text-base font-semibold text-primary lg:text-2xl">Halo Semua 👋, saya <span class="block font-bold text-dark text-4xl mt-1 lg:text-5xl">Eky Zulianto Arif</span></h1>
+                    <h1 class="text-base font-semibold text-primary lg:text-2xl">Halo Semua 👋, saya <span class="block font-bold text-dark text-4xl mt-1 lg:mb-2 lg:text-5xl">Eky Zulianto Arif</span></h1>
                     <h2 class="font-medium text-slate-500 text-lg mb-5">Frontend Engineer & <span class="text-dark">Content Creator</span></h2>
                     <p class="font-medium text-slate-400 mb-10 leading-relaxed">Belajar web programming itu mudah dan menyenangkan bukan. <span class="text-dark font-bold">bukan!</span></p>
 
@@ -42,6 +61,7 @@
         </div>
     </section>
     <!-- end hero section  -->
+
     <!-- about section -->
     <section id="about" class="pt-36 pb-32">
         <div class="container">
@@ -55,7 +75,7 @@
                     <h3 class="text-semibold text-2xl mb-3 lg:mb-5 lg:pt-10 lg:text-3xl">Mari Berteman</h3>
                     <p class="font-medium text-base lg:text-lg mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quos voluptatibus fuga, inventore eius nisi dolor.</p>
 
-                    <div class="flex">
+                    <div class="flex items-center">
                         <a href="#" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center text-slate-300 border border-slate-300 hover:border-primary hover:bg-primary hover:text-white">
                             <span>
                                 <svg width="20" role="img" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>YouTube</title><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
@@ -82,5 +102,7 @@
         </div>
     </section>
     <!-- end section about  -->
+
+    <script src="./index.js"></script>
 </body>
 </html>
